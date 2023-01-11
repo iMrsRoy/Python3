@@ -1,0 +1,23 @@
+#making cute pink bow 
+
+import turtle
+
+wn = turtle.Screen()
+wn.bgcolor("blue")        # set the window background color
+
+bow = turtle.Turtle()
+bow.color("hotpink")              # make bow pink
+bow.pensize(30)                 # set the width of her pen
+
+bow.forward(50)
+bow.left(120)
+bow.forward(50)
+bow.left(120)
+bow.forward(100)
+bow.right(120)
+bow.forward(50)
+bow.right(120)
+bow.forward(50)
+
+# wait for a user click on the canvas
+wn.exitonclick()               
